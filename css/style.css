@@ -1,0 +1,192 @@
+body{
+    margin: auto;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 4.5rem;
+    padding: 0.25rem 1rem;
+    align-items: center;
+    align-content: space-around; 
+}
+.contenedor-padre{
+    width: 100%;
+    height: 3.5rem;
+    padding: 0rem 0.25rem;
+    display: flex;
+    align-items:center;
+    align-content: space-around;
+}
+.container{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.p{
+    width: 3rem;
+    height: 3rem;
+}
+.icon{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+.logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#pin{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #111111;
+}
+#inicio{
+    padding: 0rem 1rem;
+    background-color:#111111 ;
+    color: #ffffff;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+#hoy{
+    padding: 0rem 1rem;
+}
+#hoy:hover{
+    background-color: #ddd;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+#lupa{
+    width: 1rem;
+    height: 1rem;
+}
+.buscador{
+    width: 72%;
+    padding: 0rem 0.5rem 0rem 1rem;
+    background-color: #ddd;
+    border-radius: 1.5rem;
+    align-items: center;
+    cursor: text;
+}
+.buscador:hover{
+    background-color:#c4c4c4;
+    border-radius: 1.5rem;
+}
+#search{
+    height: 1rem;
+    border: 0rem; 
+    padding: 0rem; 
+    background-color: #ddd; 
+}
+#search:hover{
+    background-color: #c4c4c4;
+}
+.a{
+    width: 1.25rem;
+    height: 1.5rem;
+}
+.b{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.c{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;    
+}
+.d{
+    width: 0.75rem;
+    height: 0.75rem;
+}
+.menu{
+    width: 10.5rem;
+}
+.content{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.content:hover{
+    background-color: #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.grid-content{
+    display: grid;
+    grid-template-areas: "a1 a3 a7 a9 a13"
+                         "a1 a4 a7 a10 a13"
+                         "a2 a5 a8 a11 a14"
+                         "a2 a6 a8 a12 a14";
+    padding: 0rem 0.5rem 1rem;
+    justify-content: space-around;
+    /* gap: 10px; */
+}
+.item1{grid-area: a1}
+.item2{grid-area: a2}
+.item3{grid-area: a3}
+.item4{grid-area: a4}
+.item5{grid-area: a5}
+.item6{grid-area: a6}
+.item7{grid-area: a7}
+.item8{grid-area: a8}
+.item9{grid-area: a9}
+.item10{grid-area: a10}
+.item11{grid-area: a11}
+.item12{grid-area: a12}
+.item13{grid-area: a13}
+.item14{grid-area: a14}
+
+.img{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    cursor: zoom-in;
+}
+img:hover{
+    filter: grayscale(100%);
+    }
+ .v{
+    width:200px;
+    height: 400px;
+} 
+.h{
+    width: 300px;
+    height: 200px;
+}
+.l{
+    font-weight: lighter;
+}
+.container-button{
+    margin: 1rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;  
+}
+.b{
+    width: 20px;
+    height: 20px;
+}
+.b1, .b2{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+    padding: 0.25rem;
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 2px 2px #85858549 ;
+}
